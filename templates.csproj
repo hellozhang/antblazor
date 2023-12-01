@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageType>Template</PackageType>
     <PackageVersion>1.0</PackageVersion>
-    <PackageId>AntDesign.Templates</PackageId>
+    <PackageId>AntDPro.Templates</PackageId>
     <Title>Ant Design Pro Blazor Templates</Title>
     <Authors>ant-design-blazor</Authors>
     <Description>An out-of-box UI solution for enterprise applications as a Blazor boilerplate.</Description>
