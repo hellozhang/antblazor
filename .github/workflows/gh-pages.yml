@@ -39,7 +39,7 @@ jobs:
 
             - name: Publish to Nuget ✔
               run: |
-                  FULL_VERSION=$Version-nightly-`date "+%y%m%d%H%M"`
+                  FULL_VERSION=$Version-lte-`date "+%y%m%d%H%M"`
                   echo "Version: ${FULL_VERSION}"
                   echo "Version: ${NUGET_API_KEY}"
                   dotnet pack templates.csproj /p:PackageVersion=${FULL_VERSION} -c Release -o publish /p:NoDefaultExcludes=true
