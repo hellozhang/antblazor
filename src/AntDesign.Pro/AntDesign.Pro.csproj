@@ -45,4 +45,42 @@
     <Watch Include="**\*.less" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Pages\Account\**" />
+    <Compile Remove="Pages\Exception\**" />
+    <Compile Remove="Pages\Form\**" />
+    <Compile Remove="Pages\List\**" />
+    <Compile Remove="Pages\Profile\**" />
+    <Compile Remove="Pages\Result\**" />
+    <Compile Remove="Pages\User\**" />
+    <Content Remove="Pages\Account\**" />
+    <Content Remove="Pages\Exception\**" />
+    <Content Remove="Pages\Form\**" />
+    <Content Remove="Pages\List\**" />
+    <Content Remove="Pages\Profile\**" />
+    <Content Remove="Pages\Result\**" />
+    <Content Remove="Pages\User\**" />
+    <EmbeddedResource Remove="Pages\Account\**" />
+    <EmbeddedResource Remove="Pages\Exception\**" />
+    <EmbeddedResource Remove="Pages\Form\**" />
+    <EmbeddedResource Remove="Pages\List\**" />
+    <EmbeddedResource Remove="Pages\Profile\**" />
+    <EmbeddedResource Remove="Pages\Result\**" />
+    <EmbeddedResource Remove="Pages\User\**" />
+    <None Remove="Pages\Account\**" />
+    <None Remove="Pages\Exception\**" />
+    <None Remove="Pages\Form\**" />
+    <None Remove="Pages\List\**" />
+    <None Remove="Pages\Profile\**" />
+    <None Remove="Pages\Result\**" />
+    <None Remove="Pages\User\**" />
+    <Watch Remove="Pages\Account\**" />
+    <Watch Remove="Pages\Exception\**" />
+    <Watch Remove="Pages\Form\**" />
+    <Watch Remove="Pages\List\**" />
+    <Watch Remove="Pages\Profile\**" />
+    <Watch Remove="Pages\Result\**" />
+    <Watch Remove="Pages\User\**" />
+  </ItemGroup>
+
 </Project>
