@@ -5,6 +5,7 @@
     <RazorLangVersion>3.0</RazorLangVersion>
     <AssemblyName>AntDesign.Pro.Template</AssemblyName>
     <RootNamespace>AntDesign.Pro.Template</RootNamespace>
+	  <BlazorCacheBootResources>false</BlazorCacheBootResources>
   </PropertyGroup>
 
   <ItemGroup>
