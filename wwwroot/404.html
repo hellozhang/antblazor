@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>BlazorPagesDemo</title>
+
+    <script type="text/javascript">
+        // 参考 https://blog.csdn.net/sD7O95O/article/details/119090363/
+
+        var segmentCount = 1; // 这个 1 是因为这个站点只有 1 级子目录，如果有 2 级则改为 2 即可。
+
+        var l = window.location;
+        l.replace(
+            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+            l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
+            l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
+            (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+            l.hash
+        );
+    </script>
+
+
+</head>
+
+<body>
+    <div id="app">Loading...</div>
+</body>
+
+</html>
