@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "AntDesign.Pro.Template",
   "resources": {
-    "hash": "sha256-RtzQTQZb6BFoejxDWcUEHE4GNwh37jQAb+Y2dpRxcps=",
+    "hash": "sha256-EXiFscDbdpuRPatHpOxn2slAp1XNaHTdMiVohGX1gqo=",
     "jsModuleNative": {
       "dotnet.native.8.0.0.45ykigla5r.js": "sha256-LjLDIz9+J7uuiwMlQ4HbNx2BnSpphOtO2MwkoI28vdI="
     },
@@ -18,7 +18,7 @@
     },
     "assembly": {
       "AntDesign.Charts.wasm": "sha256-YeCQmjKJcBv03MQdn/KGwgUG3LZZKoZ9HY8RKf2E8Ic=",
-      "AntDesign.Pro.Template.wasm": "sha256-1Zm0sC5UnqY1pWVmyvaEMzqEZbRripAQocBjC7X0ssE=",
+      "AntDesign.Pro.Template.wasm": "sha256-sE4Rkx945z1vXofF838VcnTlEmDVCnUBTIS7+ybqDCI=",
       "AntDesign.ProLayout.wasm": "sha256-BlejVAClsvHPL2DPZCxLjdvTp0HiIJSYmhL925ywRg8=",
       "AntDesign.wasm": "sha256-EapHkLZn9GWiW90YNkxIYlywu3GN+uBU2rxgwVrLCOI=",
       "Microsoft.AspNetCore.Components.DataAnnotations.Validation.wasm": "sha256-Mpd98aRLb9cK/TLwAqYub55BwBvzDAyJs18h1O7jIqk=",
@@ -75,7 +75,6 @@
       "System.Xml.XDocument.wasm": "sha256-ahxR10snsjmQ/LntziJkPMTs/YVYi6+kAWdS3DHrvhA="
     }
   },
-  "cacheBootResources": true,
   "debugLevel": 0,
   "linkerEnabled": true,
   "appsettings": [
