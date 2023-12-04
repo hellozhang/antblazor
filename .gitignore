@@ -341,3 +341,5 @@ healthchecksdb
 /package-lock.json
 /src/AntDesign.Pro/wwwroot/css/*.css
 /src/AntDesign.Pro/**/*.css
+
+* binary
