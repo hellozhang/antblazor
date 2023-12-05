@@ -2,13 +2,10 @@ using System;
 
 namespace AntDesign.Pro.Template.Models
 {
-    public class ActivitiesType
+
+    public class AliAuth
     {
-        public string Id { get; set; }
-        public DateTime UpdatedAt { get; set; }
-        public ActivityUser User { get; set; }
-        public ActivityGroup Group { get; set; }
-        public ActivityProject Project { get; set; }
-        public string Template { get; set; }
+        public string Csrf { get; set; }
+        public string Cooike { get; set; }
     }
 }
