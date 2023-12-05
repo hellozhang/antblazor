@@ -6,31 +6,19 @@
     <AssemblyName>AntDesign.Pro.Template</AssemblyName>
     <RootNamespace>AntDesign.Pro.Template</RootNamespace>
 	  <BlazorCacheBootResources>false</BlazorCacheBootResources>
-	  <UserSecretsId>598b664f-3f7a-42d8-92f6-e439a9360c1d</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="AntDesign.Charts" Version="0.4.0" />
     <PackageReference Include="AntDesign.ProLayout" Version="0.16.2" />
-    <PackageReference Include="Blazor-ApexCharts" Version="2.1.0" />
-    <PackageReference Include="EasyNotice.Core" Version="2.0.2" />
-    <PackageReference Include="EasyNotice.Dingtalk" Version="2.0.2" />
-    <PackageReference Include="EasyNotice.Email" Version="2.0.2" />
-    <PackageReference Include="Flurl" Version="4.0.0-pre4" />
-    <PackageReference Include="Flurl.Http" Version="4.0.0-pre6" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.0" PrivateAssets="all" />
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="System.Net.Http.Json" Version="8.0.0" />
   </ItemGroup>
 
   <PropertyGroup Condition=" '$(SolutionDir)'==''">
     <SolutionDir>../../</SolutionDir>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <Optimize>False</Optimize>
   </PropertyGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SolutionDir)node_modules') ">
@@ -93,35 +81,6 @@
     <Watch Remove="Pages\Profile\**" />
     <Watch Remove="Pages\Result\**" />
     <Watch Remove="Pages\User\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Remove="Components\CalendarItem.razor" />
-    <Content Remove="Components\CodePreview.razor" />
-    <Content Remove="Components\Component.razor" />
-    <Content Remove="Components\Footer.razor" />
-    <Content Remove="Components\HeaderItem.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Watch Remove="Components\CalendarItem.razor" />
-    <Watch Remove="Components\CodePreview.razor" />
-    <Watch Remove="Components\Component.razor" />
-    <Watch Remove="Components\Footer.razor" />
-    <Watch Remove="Components\HeaderItem.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Components\CalendarItem.razor" />
-    <None Include="Components\CodePreview.razor" />
-    <None Include="Components\Component.razor" />
-    <None Include="Components\Footer.razor" />
-    <None Include="Components\HeaderItem.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Pages\Dashboard\Analysis\Components\" />
-    <Folder Include="Pages\Dashboard\Workplace\" />
   </ItemGroup>
 
 </Project>
